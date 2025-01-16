@@ -1,0 +1,6 @@
+{
+    "host": "192.168.0.100",
+    "username": "admin",
+    "password": "password",
+    "vm_name": "TestVM"
+}

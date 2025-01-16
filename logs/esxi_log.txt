@@ -1,0 +1,44 @@
+2025-01-11 17:56:37,267 - ESXi-Test gestartet
+2025-01-11 17:56:38,268 - Analyse gestartet.
+2025-01-12 19:56:59,807 - VirtualBox-Test gestartet
+2025-01-12 19:56:59,809 - Fehler während des VirtualBox-Tests: [WinError 2] Das System kann die angegebene Datei nicht finden
+2025-01-12 20:36:31,601 - VirtualBox-Test gestartet
+2025-01-12 20:36:31,603 - Fehler während des VirtualBox-Tests: [WinError 2] Das System kann die angegebene Datei nicht finden
+2025-01-12 20:37:27,857 - VirtualBox-Test gestartet
+2025-01-12 20:37:27,859 - Fehler während des VirtualBox-Tests: [WinError 2] Das System kann die angegebene Datei nicht finden
+2025-01-12 20:40:14,186 - VirtualBox-Test gestartet
+2025-01-12 20:40:21,639 - Analyse gestartet.
+2025-01-12 20:40:31,691 - Analyse beendet.
+2025-01-12 20:40:31,707 - Fehler während des VirtualBox-Tests: Command '['VBoxManage', 'controlvm', 'TestVM', 'poweroff']' returned non-zero exit status 1.
+2025-01-12 20:42:31,018 - VirtualBox-Test gestartet
+2025-01-12 20:42:35,121 - Analyse gestartet.
+2025-01-12 20:42:45,175 - Analyse beendet.
+2025-01-12 20:42:45,438 - Ergebnisse gespeichert.
+2025-01-12 20:49:13,015 - imports error 
+ You need to install pymongo>=3.9.0 in order to use MongoOutput 
+2025-01-12 21:08:04,198 - VirtualBox-Test gestartet
+2025-01-12 21:08:08,191 - Analyse gestartet.
+2025-01-12 21:08:18,244 - Analyse beendet.
+2025-01-12 21:08:18,505 - Ergebnisse gespeichert.
+2025-01-12 21:09:20,532 - VirtualBox-Test gestartet
+2025-01-12 21:09:24,475 - Analyse gestartet.
+2025-01-12 21:09:34,522 - Analyse beendet.
+2025-01-12 21:09:34,791 - Ergebnisse gespeichert.
+2025-01-12 21:44:35,881 - Starte VirtualBox-VM: NewMacOS...
+2025-01-12 21:44:44,772 - VM NewMacOS ist gestartet.
+2025-01-12 21:44:44,772 - Starte Workloads in VM NewMacOS...
+2025-01-12 21:44:45,359 - Fehler bei VBoxManage-Befehl: Command '['VBoxManage', 'guestcontrol', 'NewMacOS', 'run', '--username', 'your_username', '--password', 'your_password', '--', 'path/to/workload/script']' returned non-zero exit status 3221226356.
+2025-01-12 21:45:16,177 - VirtualBox-Test gestartet
+2025-01-12 21:45:16,196 - Fehler während des VirtualBox-Tests: Command '['VBoxManage', 'startvm', 'NewMacOS', '--type', 'headless']' returned non-zero exit status 1.
+2025-01-12 21:45:39,706 - VirtualBox-Test gestartet
+2025-01-12 21:45:43,238 - Analyse gestartet.
+2025-01-12 21:45:53,292 - Analyse beendet.
+2025-01-12 21:45:53,467 - Ergebnisse gespeichert.
+2025-01-16 18:46:01,296 - VirtualBox-Test gestartet
+2025-01-16 18:46:05,305 - Analyse gestartet.
+2025-01-16 18:46:15,341 - Analyse beendet.
+2025-01-16 18:46:15,731 - Ergebnisse gespeichert.
+2025-01-16 18:46:40,340 - Workstation-Test gestartet
+2025-01-16 18:46:57,505 - Analyse gestartet.
+2025-01-16 18:47:07,540 - Analyse beendet.
+2025-01-16 18:47:17,344 - Ergebnisse gespeichert.
