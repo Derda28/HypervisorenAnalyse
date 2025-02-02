@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import messagebox
 import threading
 from visualization.plot_results import show_results
+import sys
+sys.path.append('.')
 
 # Importiere die Automatisierungsskripte
 from scripts.esxi import run_esxi_test

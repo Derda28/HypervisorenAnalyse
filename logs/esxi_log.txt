@@ -42,3 +42,363 @@
 2025-01-16 18:46:57,505 - Analyse gestartet.
 2025-01-16 18:47:07,540 - Analyse beendet.
 2025-01-16 18:47:17,344 - Ergebnisse gespeichert.
+2025-01-16 19:11:24,077 - Fehler während des VirtualBox-Tests: start_virtualbox_vm() takes 0 positional arguments but 1 was given
+2025-01-16 19:18:33,216 - Workstation-Test gestartet
+2025-01-16 19:18:39,894 - Fehler während des Workstation-Tests: Command '['vmrun', '-T', 'ws', 'start', 'C:\\Users\\Derda\\Documents\\Virtual Machines\\Windows 11 x64 (3)\\Windows 11 x64 (3).vmx']' returned non-zero exit status 3221225786.
+2025-01-16 19:18:43,269 - Starte VirtualBox-VM: Windows11
+2025-01-16 19:18:47,166 - VirtualBox-VM erfolgreich gestartet.
+2025-01-16 19:19:17,167 - Starte Workloads in VirtualBox-VM: Windows11
+2025-01-16 19:19:21,839 - Fehler beim Starten der Workloads: Command '['VBoxManage', 'guestcontrol', 'Windows11', 'run', '--username', 'user', '--password', 'pass', '--exe', 'C:\\Windows\\System32\\notepad.exe']' returned non-zero exit status 3221225477.
+2025-01-16 19:19:21,839 - Fehler während des VirtualBox-Tests: Command '['VBoxManage', 'guestcontrol', 'Windows11', 'run', '--username', 'user', '--password', 'pass', '--exe', 'C:\\Windows\\System32\\notepad.exe']' returned non-zero exit status 3221225477.
+2025-01-16 21:17:20,792 - Starte VirtualBox-VM: Windows11
+2025-01-16 21:17:26,645 - VirtualBox-VM erfolgreich gestartet.
+2025-01-16 21:17:56,646 - Starte Workload in VirtualBox-VM: Windows11
+2025-01-16 21:18:01,098 - Fehler beim Starten der Workload: Command '['VBoxManage', 'guestcontrol', 'Windows11', 'run', '--username', 'kerem', '--password', '12345678', '--exe', 'cmd.exe', '--', '/c', 'C:\\Users\\kerem\\Desktop\\open_edge_tabs.bat']' returned non-zero exit status 3221226356.
+2025-01-16 21:18:01,098 - Fehler während des VirtualBox-Tests: Command '['VBoxManage', 'guestcontrol', 'Windows11', 'run', '--username', 'kerem', '--password', '12345678', '--exe', 'cmd.exe', '--', '/c', 'C:\\Users\\kerem\\Desktop\\open_edge_tabs.bat']' returned non-zero exit status 3221226356.
+2025-01-16 21:34:31,532 - Starte VirtualBox-VM: Windows11
+2025-01-16 21:34:38,007 - VirtualBox-VM erfolgreich gestartet.
+2025-01-16 21:35:10,958 - Der Prozess wurde ausgeführt, aber der Exit-Status war: 3221225477
+2025-01-16 21:35:10,958 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-01-16 21:35:41,200 - Fehler während des VirtualBox-Tests: No module named 'utils.file_handler'
+2025-01-16 21:35:56,026 - Starte VirtualBox-VM: Windows11
+2025-01-16 21:35:56,043 - Fehler beim Starten der VirtualBox-VM: Command '['VBoxManage', 'startvm', 'Windows11']' returned non-zero exit status 1.
+2025-01-16 21:35:56,043 - Fehler während des VirtualBox-Tests: Command '['VBoxManage', 'startvm', 'Windows11']' returned non-zero exit status 1.
+2025-01-16 21:36:17,786 - Starte VirtualBox-VM: Windows11
+2025-01-16 21:36:23,641 - VirtualBox-VM erfolgreich gestartet.
+2025-01-16 21:37:04,821 - Der Prozess wurde ausgeführt, aber der Exit-Status war: 3221226356
+2025-01-16 21:37:04,822 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-01-16 21:37:34,996 - Fehler während des VirtualBox-Tests: No module named 'utils.file_handler'
+2025-01-16 21:39:07,641 - Starte VirtualBox-VM: Windows11
+2025-01-16 21:39:13,412 - VirtualBox-VM erfolgreich gestartet.
+2025-01-16 21:39:53,424 - Der Prozess wurde ausgeführt, aber der Exit-Status war: 3221226356
+2025-01-16 21:39:53,424 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-01-16 21:40:23,643 - Fehler während des VirtualBox-Tests: No module named 'utils.file_handler'
+2025-01-16 21:42:17,823 - Starte VirtualBox-VM: Windows11
+2025-01-16 21:42:23,839 - VirtualBox-VM erfolgreich gestartet.
+2025-01-16 21:42:57,899 - Der Prozess wurde ausgeführt, aber der Exit-Status war: 3221226356
+2025-01-16 21:42:57,899 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-01-16 21:43:28,149 - Fehler während des VirtualBox-Tests: cannot import name 'save_results_to_csv' from 'file_handler' (C:\Users\Derda\Documents\Kerem-Bachelor\Analysis-Hypervisors\utils\file_handler.py)
+2025-01-16 21:47:07,942 - Starte VirtualBox-VM: Windows11
+2025-01-16 21:47:13,680 - VirtualBox-VM erfolgreich gestartet.
+2025-01-16 21:47:58,788 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-01-16 21:48:28,977 - Stoppe VirtualBox-VM: Windows11
+2025-01-16 21:48:28,994 - Fehler beim Stoppen der VirtualBox-VM: Command '['VBoxManage', 'controlvm', 'Windows11', 'acpipowerbutton']' returned non-zero exit status 1.
+2025-01-16 21:48:28,994 - Fehler während des VirtualBox-Tests: Command '['VBoxManage', 'controlvm', 'Windows11', 'acpipowerbutton']' returned non-zero exit status 1.
+2025-01-16 21:48:51,982 - Starte VirtualBox-VM: Windows11
+2025-01-16 21:48:57,839 - VirtualBox-VM erfolgreich gestartet.
+2025-01-16 21:50:02,595 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-01-16 21:50:32,781 - Stoppe VirtualBox-VM: Windows11
+2025-01-16 21:50:32,797 - VirtualBox-VM erfolgreich gestoppt.
+2025-01-16 21:50:32,797 - VirtualBox-Test abgeschlossen.
+2025-01-17 21:36:20,081 - Starte VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-01-17 21:36:23,110 - VMware Workstation-VM erfolgreich gestartet.
+2025-01-17 21:37:28,279 - Beginne mit der Überwachung der VMware Workstation-VM.
+2025-01-17 21:37:58,517 - Fehler während des VMware Workstation-Tests: save_vmware_results() got multiple values for argument 'headers'
+2025-01-17 21:47:38,735 - Starte VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-01-17 21:47:39,267 - VMware Workstation-VM erfolgreich gestartet.
+2025-01-17 21:48:49,785 - Starte VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-01-17 21:48:52,616 - VMware Workstation-VM erfolgreich gestartet.
+2025-01-17 21:49:57,131 - Beginne mit der Überwachung der VMware Workstation-VM.
+2025-01-17 21:50:27,371 - Stoppe VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-01-17 21:50:34,023 - VMware Workstation-VM erfolgreich gestoppt.
+2025-01-17 21:50:34,023 - VMware Workstation-Test abgeschlossen.
+2025-01-20 21:46:31,144 - Starte Hyper-V-VM: Kerem
+2025-01-20 21:46:31,708 - Fehler beim Starten der Hyper-V-VM: Command '['powershell', '-Command', 'Start-VM -Name "Kerem"']' returned non-zero exit status 1.
+2025-01-20 21:46:31,708 - Fehler während des Hyper-V-Tests: Command '['powershell', '-Command', 'Start-VM -Name "Kerem"']' returned non-zero exit status 1.
+2025-01-20 21:47:23,592 - Starte Hyper-V-VM: Kerem
+2025-01-20 21:47:24,468 - Hyper-V-VM erfolgreich gestartet.
+2025-01-20 21:48:24,594 - Der Prozess wurde ausgeführt, aber der Exit-Status war: 1
+2025-01-20 21:48:24,594 - Beginne mit der Überwachung der Hyper-V-VM.
+2025-01-20 21:48:54,787 - Stoppe Hyper-V-VM: Kerem
+2025-01-20 21:48:58,080 - Hyper-V-VM erfolgreich gestoppt.
+2025-01-20 21:48:58,081 - Hyper-V-Test abgeschlossen.
+2025-01-20 21:50:53,672 - Starte Hyper-V-VM: Kerem
+2025-01-20 21:50:55,026 - Hyper-V-VM erfolgreich gestartet.
+2025-01-20 21:51:56,960 - Beginne mit der Überwachung der Hyper-V-VM.
+2025-01-20 21:52:27,153 - Stoppe Hyper-V-VM: Kerem
+2025-01-20 21:52:31,056 - Hyper-V-VM erfolgreich gestoppt.
+2025-01-20 21:52:31,056 - Hyper-V-Test abgeschlossen.
+2025-02-01 15:08:28,423 - Starte Hyper-V-VM: Kerem
+2025-02-01 15:08:28,993 - Fehler beim Starten der Hyper-V-VM: Command '['powershell', '-Command', 'Start-VM -Name "Kerem"']' returned non-zero exit status 1.
+2025-02-01 15:08:28,993 - Fehler während des Hyper-V-Tests: Command '['powershell', '-Command', 'Start-VM -Name "Kerem"']' returned non-zero exit status 1.
+2025-02-01 15:09:04,059 - Starte Hyper-V-VM: Kerem
+2025-02-01 15:09:05,935 - Hyper-V-VM erfolgreich gestartet.
+2025-02-01 15:10:07,821 - Beginne mit der Überwachung der Hyper-V-VM.
+2025-02-01 15:10:37,939 - Stoppe Hyper-V-VM: Kerem
+2025-02-01 15:10:46,975 - Hyper-V-VM erfolgreich gestoppt.
+2025-02-01 15:10:46,976 - Hyper-V-Test abgeschlossen.
+2025-02-01 15:10:56,926 - Starte Hyper-V-VM: Kerem
+2025-02-01 15:10:58,143 - Hyper-V-VM erfolgreich gestartet.
+2025-02-01 15:11:59,702 - Beginne mit der Überwachung der Hyper-V-VM.
+2025-02-01 15:12:29,828 - Stoppe Hyper-V-VM: Kerem
+2025-02-01 15:12:59,099 - Hyper-V-VM erfolgreich gestoppt.
+2025-02-01 15:12:59,100 - Hyper-V-Test abgeschlossen.
+2025-02-01 15:13:40,739 - Starte VirtualBox-VM: Windows11
+2025-02-01 15:13:47,053 - VirtualBox-VM erfolgreich gestartet.
+2025-02-01 15:14:49,930 - Der Prozess wurde ausgeführt, aber der Exit-Status war: 3221226356
+2025-02-01 15:14:49,930 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-02-01 15:15:20,073 - Stoppe VirtualBox-VM: Windows11
+2025-02-01 15:15:20,095 - VirtualBox-VM erfolgreich gestoppt.
+2025-02-01 15:15:20,095 - VirtualBox-Test abgeschlossen.
+2025-02-01 15:16:47,463 - Starte VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-01 15:17:30,695 - VMware Workstation-VM erfolgreich gestartet.
+2025-02-01 15:18:34,773 - Beginne mit der Überwachung der VMware Workstation-VM.
+2025-02-01 15:19:04,903 - Stoppe VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-01 15:19:12,869 - VMware Workstation-VM erfolgreich gestoppt.
+2025-02-01 15:19:12,870 - VMware Workstation-Test abgeschlossen.
+2025-02-01 15:27:21,171 - Starte Hyper-V-VM: Kerem
+2025-02-01 15:27:22,250 - Hyper-V-VM erfolgreich gestartet.
+2025-02-01 15:28:23,824 - Beginne mit der Überwachung der Hyper-V-VM.
+2025-02-01 15:28:53,951 - Stoppe Hyper-V-VM: Kerem
+2025-02-01 15:29:22,589 - Hyper-V-VM erfolgreich gestoppt.
+2025-02-01 15:29:22,589 - Hyper-V-Test abgeschlossen.
+2025-02-01 15:29:35,709 - Starte VirtualBox-VM: Windows11
+2025-02-01 15:29:41,617 - VirtualBox-VM erfolgreich gestartet.
+2025-02-01 15:30:44,439 - Der Prozess wurde ausgeführt, aber der Exit-Status war: 3221226356
+2025-02-01 15:30:44,440 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-02-01 15:31:14,565 - Stoppe VirtualBox-VM: Windows11
+2025-02-01 15:31:14,584 - VirtualBox-VM erfolgreich gestoppt.
+2025-02-01 15:31:14,585 - VirtualBox-Test abgeschlossen.
+2025-02-01 15:31:58,235 - Starte VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-01 15:32:03,332 - VMware Workstation-VM erfolgreich gestartet.
+2025-02-01 15:33:07,829 - Beginne mit der Überwachung der VMware Workstation-VM.
+2025-02-01 15:33:37,947 - Stoppe VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-01 15:33:44,840 - VMware Workstation-VM erfolgreich gestoppt.
+2025-02-01 15:33:44,841 - VMware Workstation-Test abgeschlossen.
+2025-02-01 15:51:43,102 - Starte Hyper-V-VM: Kerem
+2025-02-01 15:51:44,471 - Hyper-V-VM erfolgreich gestartet.
+2025-02-01 15:52:46,221 - Beginne mit der Überwachung der Hyper-V-VM.
+2025-02-01 16:17:46,678 - Stoppe Hyper-V-VM: Kerem
+2025-02-01 16:17:53,586 - Hyper-V-VM erfolgreich gestoppt.
+2025-02-01 16:17:53,586 - Hyper-V-Test abgeschlossen.
+2025-02-01 16:18:22,959 - Starte VirtualBox-VM: Windows11
+2025-02-01 16:18:29,776 - VirtualBox-VM erfolgreich gestartet.
+2025-02-01 16:19:31,732 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-02-01 16:44:31,846 - Stoppe VirtualBox-VM: Windows11
+2025-02-01 16:44:31,862 - VirtualBox-VM erfolgreich gestoppt.
+2025-02-01 16:44:31,862 - VirtualBox-Test abgeschlossen.
+2025-02-01 20:25:33,024 - Starte VirtualBox-VM: Windows11
+2025-02-01 20:25:39,022 - VirtualBox-VM erfolgreich gestartet.
+2025-02-01 20:26:39,022 - Starte Workload open_edge_tabs.bat in VM Windows11
+2025-02-01 20:26:39,027 - Starte Workload cpu_stress.bat in VM Windows11
+2025-02-01 20:26:39,030 - Starte Workload memory_stress.bat in VM Windows11
+2025-02-01 20:26:39,035 - Starte Workload disk_stress.bat in VM Windows11
+2025-02-01 20:26:44,040 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-02-01 21:10:03,551 - Starte VirtualBox-VM: Windows11
+2025-02-01 21:10:10,204 - VirtualBox-VM erfolgreich gestartet.
+2025-02-01 21:11:10,205 - Starte Workload cpu_stress.bat in VM Windows11
+2025-02-01 21:11:10,209 - Starte Workload memory_stress.bat in VM Windows11
+2025-02-01 21:11:10,212 - Starte Workload disk_stress.bat in VM Windows11
+2025-02-01 21:11:15,215 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-02-01 21:17:53,161 - Stoppe VirtualBox-VM: Windows11
+2025-02-01 21:17:53,208 - VirtualBox-VM erfolgreich gestoppt.
+2025-02-01 21:17:53,208 - VirtualBox-Test abgeschlossen.
+2025-02-02 17:05:01,607 - Starte VirtualBox-VM: Windows11
+2025-02-02 17:05:07,649 - VirtualBox-VM erfolgreich gestartet.
+2025-02-02 17:06:07,650 - Starte Workload cpu_stress.bat in VM Windows11
+2025-02-02 17:06:07,654 - Starte Workload memory_stress.bat in VM Windows11
+2025-02-02 17:06:07,658 - Starte Workload disk_stress.bat in VM Windows11
+2025-02-02 17:06:12,663 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-02-02 17:10:19,857 - Starte VirtualBox-VM: Windows11
+2025-02-02 17:10:25,924 - VirtualBox-VM erfolgreich gestartet.
+2025-02-02 17:11:25,925 - Starte Workload cpu_stress.bat in VM Windows11 als Administrator
+2025-02-02 17:11:25,929 - Starte Workload memory_stress.bat in VM Windows11 als Administrator
+2025-02-02 17:11:25,933 - Starte Workload disk_stress.bat in VM Windows11 als Administrator
+2025-02-02 17:11:30,938 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-02-02 17:16:31,432 - Stoppe VirtualBox-VM: Windows11
+2025-02-02 17:16:31,481 - VirtualBox-VM erfolgreich gestoppt.
+2025-02-02 17:16:31,481 - VirtualBox-Test abgeschlossen.
+2025-02-02 17:19:54,509 - Starte VirtualBox-VM: Windows11
+2025-02-02 17:20:00,351 - VirtualBox-VM erfolgreich gestartet.
+2025-02-02 17:21:00,351 - Starte Workload cpu_stress.bat in VM Windows11 als Administrator
+2025-02-02 17:21:00,356 - Starte Workload memory_stress.bat in VM Windows11 als Administrator
+2025-02-02 17:21:00,363 - Starte Workload disk_stress.bat in VM Windows11 als Administrator
+2025-02-02 17:21:05,368 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-02-02 17:22:37,335 - Starte VirtualBox-VM: Windows11
+2025-02-02 17:22:43,157 - VirtualBox-VM erfolgreich gestartet.
+2025-02-02 17:23:43,157 - Starte Workload cpu_stress.bat in VM Windows11
+2025-02-02 17:23:43,162 - Starte Workload memory_stress.bat in VM Windows11
+2025-02-02 17:23:43,166 - Starte Workload disk_stress.bat in VM Windows11
+2025-02-02 17:23:48,170 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-02-02 17:28:48,817 - Stoppe VirtualBox-VM: Windows11
+2025-02-02 17:28:48,856 - VirtualBox-VM erfolgreich gestoppt.
+2025-02-02 17:28:48,856 - VirtualBox-Test abgeschlossen.
+2025-02-02 17:46:57,472 - Starte VirtualBox-VM: Windows11
+2025-02-02 17:47:03,759 - VirtualBox-VM erfolgreich gestartet.
+2025-02-02 17:48:03,760 - Starte Workload cpu_stress.bat in VM Windows11
+2025-02-02 17:48:22,257 - Fehler beim Ausführen von cpu_stress.bat: Command '['VBoxManage', 'guestcontrol', 'Windows11', 'run', '--username', 'kerem', '--password', '12345678', '--exe', 'cmd.exe', '--', '/c', 'C:\\Users\\kerem\\Desktop\\cpu_stress.bat']' returned non-zero exit status 3221226356.
+2025-02-02 17:48:22,257 - Starte Workload memory_stress.bat in VM Windows11
+2025-02-02 17:49:01,499 - Fehler beim Ausführen von memory_stress.bat: Command '['VBoxManage', 'guestcontrol', 'Windows11', 'run', '--username', 'kerem', '--password', '12345678', '--exe', 'cmd.exe', '--', '/c', 'C:\\Users\\kerem\\Desktop\\memory_stress.bat']' returned non-zero exit status 3221226356.
+2025-02-02 17:49:01,500 - Starte Workload disk_stress.bat in VM Windows11
+2025-02-02 17:49:05,103 - Fehler beim Ausführen von disk_stress.bat: Command '['VBoxManage', 'guestcontrol', 'Windows11', 'run', '--username', 'kerem', '--password', '12345678', '--exe', 'cmd.exe', '--', '/c', 'C:\\Users\\kerem\\Desktop\\disk_stress.bat']' returned non-zero exit status 3221225477.
+2025-02-02 17:49:10,104 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-02-02 17:54:10,741 - Fehler während des VirtualBox-Tests: 'NoneType' object is not iterable
+2025-02-02 18:02:20,459 - Starte VirtualBox-VM: Windows11
+2025-02-02 18:02:26,534 - VirtualBox-VM erfolgreich gestartet.
+2025-02-02 18:03:26,535 - Starte Workload cpu_stress.bat in VM Windows11
+2025-02-02 18:03:39,008 - Starte Workload memory_stress.bat in VM Windows11
+2025-02-02 18:04:11,828 - Starte Workload disk_stress.bat in VM Windows11
+2025-02-02 18:04:14,525 - disk_stress.bat returned code 3221226356
+2025-02-02 18:04:14,526 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-02-02 18:04:44,812 - Stoppe VirtualBox-VM: Windows11
+2025-02-02 18:04:44,847 - VirtualBox-VM erfolgreich gestoppt.
+2025-02-02 18:04:44,848 - VirtualBox-Test abgeschlossen.
+2025-02-02 18:07:25,451 - Starte VirtualBox-VM: Windows11
+2025-02-02 18:07:31,891 - VirtualBox-VM erfolgreich gestartet.
+2025-02-02 18:08:31,892 - Starte Workload cpu_stress.bat in VM Windows11
+2025-02-02 18:08:46,757 - cpu_stress.bat returned code 3221226356
+2025-02-02 18:08:46,757 - Starte Workload memory_stress.bat in VM Windows11
+2025-02-02 18:08:49,042 - memory_stress.bat returned code 3221225477
+2025-02-02 18:08:49,042 - Starte Workload disk_stress.bat in VM Windows11
+2025-02-02 18:08:51,795 - disk_stress.bat returned code 3221226356
+2025-02-02 18:08:51,796 - Beginne mit der Überwachung der VirtualBox-VM.
+2025-02-02 18:09:22,066 - Stoppe VirtualBox-VM: Windows11
+2025-02-02 18:09:22,103 - VirtualBox-VM erfolgreich gestoppt.
+2025-02-02 18:09:22,103 - VirtualBox-Test abgeschlossen.
+2025-02-02 18:20:41,795 - Starte VirtualBox-VM: Windows11
+2025-02-02 18:20:47,690 - VirtualBox-VM erfolgreich gestartet.
+2025-02-02 18:21:47,690 - Starte Performance-Monitoring.
+2025-02-02 18:21:47,696 - Starte Workload cpu_stress.bat in VM Windows11
+2025-02-02 18:21:50,291 - cpu_stress.bat returned code 3221225477
+2025-02-02 18:21:50,291 - Starte Workload memory_stress.bat in VM Windows11
+2025-02-02 18:22:28,023 - memory_stress.bat returned code 3221226356
+2025-02-02 18:22:28,023 - Starte Workload disk_stress.bat in VM Windows11
+2025-02-02 18:22:31,018 - disk_stress.bat returned code 3221226356
+2025-02-02 18:22:31,018 - Stoppe Performance-Monitoring.
+2025-02-02 18:22:31,080 - Metrics monitoring thread stopped.
+2025-02-02 18:22:31,081 - Stoppe VirtualBox-VM: Windows11
+2025-02-02 18:22:31,095 - VirtualBox-VM erfolgreich gestoppt.
+2025-02-02 18:22:31,095 - VirtualBox-Test abgeschlossen.
+2025-02-02 18:30:42,564 - Starte VirtualBox-VM: Windows11
+2025-02-02 18:30:48,352 - VirtualBox-VM erfolgreich gestartet.
+2025-02-02 18:31:48,352 - Starte Performance-Monitoring.
+2025-02-02 18:31:48,359 - Starte Workload cpu_stress.bat in VM Windows11
+2025-02-02 18:42:01,241 - cpu_stress.bat returned code 3221226356
+2025-02-02 18:42:01,241 - Starte Workload memory_stress.bat in VM Windows11
+2025-02-02 18:42:04,183 - memory_stress.bat returned code 3221226356
+2025-02-02 18:42:04,183 - Starte Workload disk_stress.bat in VM Windows11
+2025-02-02 18:42:07,400 - disk_stress.bat returned code 3221226356
+2025-02-02 18:42:07,400 - Stoppe Performance-Monitoring.
+2025-02-02 18:42:08,279 - Metrics monitoring thread stopped.
+2025-02-02 18:42:08,281 - Stoppe VirtualBox-VM: Windows11
+2025-02-02 18:42:08,324 - VirtualBox-VM erfolgreich gestoppt.
+2025-02-02 18:42:08,324 - VirtualBox-Test abgeschlossen.
+2025-02-02 19:32:36,534 - Starte VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 19:32:41,020 - VMware Workstation-VM erfolgreich gestartet.
+2025-02-02 19:33:41,021 - Starte Performance-Monitoring.
+2025-02-02 19:33:41,026 - Starte Workload in VMware Workstation-VM (Edge Tabs)...
+2025-02-02 19:33:46,658 - Stoppe Performance-Monitoring.
+2025-02-02 19:33:47,085 - Metrics monitoring thread stopped.
+2025-02-02 19:33:47,086 - Stoppe VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 19:33:53,386 - VMware Workstation-VM erfolgreich gestoppt.
+2025-02-02 19:33:53,386 - VMware Workstation-Test abgeschlossen.
+2025-02-02 19:44:23,050 - Starte VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 19:44:26,865 - VMware Workstation-VM erfolgreich gestartet.
+2025-02-02 19:45:26,865 - Starte Performance-Monitoring für VMware Workstation.
+2025-02-02 19:45:26,872 - Starte Workload cpu_stress.bat in VM C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 19:46:06,297 - Starte Workload memory_stress.bat in VM C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 19:46:48,602 - Starte Workload disk_stress.bat in VM C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 19:46:59,274 - Stoppe Performance-Monitoring.
+2025-02-02 19:46:59,804 - Metrics monitoring thread stopped.
+2025-02-02 19:46:59,804 - Stoppe VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 19:47:06,737 - VMware Workstation-VM erfolgreich gestoppt.
+2025-02-02 19:47:06,737 - VMware Workstation-Test abgeschlossen.
+2025-02-02 19:59:14,204 - Starte VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 19:59:15,445 - VMware Workstation-VM erfolgreich gestartet.
+2025-02-02 20:00:15,446 - Starte Performance-Monitoring für VMware Workstation.
+2025-02-02 20:00:15,451 - Starte Workload cpu_stress.bat in VM C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 20:00:55,516 - Starte Workload memory_stress.bat in VM C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 20:01:31,757 - Starte Workload disk_stress.bat in VM C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 20:01:50,261 - Stoppe Performance-Monitoring.
+2025-02-02 20:01:50,387 - Metrics monitoring thread stopped.
+2025-02-02 20:01:50,387 - Stoppe VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 20:01:57,122 - VMware Workstation-VM erfolgreich gestoppt.
+2025-02-02 20:01:57,123 - VMware Workstation-Test abgeschlossen.
+2025-02-02 20:09:52,490 - Starte VirtualBox-VM: Windows11
+2025-02-02 20:09:58,347 - VirtualBox-VM erfolgreich gestartet.
+2025-02-02 20:10:58,348 - Starte Performance-Monitoring.
+2025-02-02 20:10:58,353 - Starte Workload cpu_stress.bat in VM Windows11
+2025-02-02 20:36:11,912 - cpu_stress.bat returned code 3221226356
+2025-02-02 20:36:11,913 - Starte Workload memory_stress.bat in VM Windows11
+2025-02-02 21:01:18,002 - memory_stress.bat returned code 3221226356
+2025-02-02 21:01:18,003 - Starte Workload disk_stress.bat in VM Windows11
+2025-02-02 21:01:22,184 - disk_stress.bat returned code 3221226356
+2025-02-02 21:01:22,185 - Stoppe Performance-Monitoring.
+2025-02-02 21:01:22,238 - Metrics monitoring thread stopped.
+2025-02-02 21:01:22,243 - Stoppe VirtualBox-VM: Windows11
+2025-02-02 21:01:22,257 - VirtualBox-VM erfolgreich gestoppt.
+2025-02-02 21:01:22,258 - VirtualBox-Test abgeschlossen.
+2025-02-02 21:03:23,215 - Starte VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 21:03:24,630 - VMware Workstation-VM erfolgreich gestartet.
+2025-02-02 21:04:24,630 - Starte Performance-Monitoring für VMware Workstation.
+2025-02-02 21:04:24,636 - Starte Workload cpu_stress.bat in VM C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 21:29:37,472 - Starte Workload memory_stress.bat in VM C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 21:31:57,261 - memory_stress.bat returned code 4294967295
+2025-02-02 21:31:57,262 - Starte Workload disk_stress.bat in VM C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 21:31:57,695 - disk_stress.bat returned code 4294967295
+2025-02-02 21:31:57,695 - Stoppe Performance-Monitoring.
+2025-02-02 21:31:57,830 - Metrics monitoring thread stopped.
+2025-02-02 21:31:57,833 - Stoppe VMware Workstation-VM: C:\Users\Derda\Documents\Virtual Machines\Windows 11 x64 (3)\Windows 11 x64 (3).vmx
+2025-02-02 21:31:58,334 - Fehler beim Stoppen der VMware Workstation-VM: Command '['vmrun', '-T', 'ws', 'stop', 'C:\\Users\\Derda\\Documents\\Virtual Machines\\Windows 11 x64 (3)\\Windows 11 x64 (3).vmx']' returned non-zero exit status 4294967295.
+2025-02-02 21:31:58,334 - Fehler während des VMware Workstation-Tests: Command '['vmrun', '-T', 'ws', 'stop', 'C:\\Users\\Derda\\Documents\\Virtual Machines\\Windows 11 x64 (3)\\Windows 11 x64 (3).vmx']' returned non-zero exit status 4294967295.
+2025-02-02 21:50:14,771 - Starte Hyper-V-VM: Kerem
+2025-02-02 21:50:15,857 - Hyper-V-VM erfolgreich gestartet.
+2025-02-02 21:51:15,858 - Starte Performance-Monitoring für Hyper-V.
+2025-02-02 21:51:15,864 - Starte Workload cpu_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 21:51:16,038 - cpu_stress.bat returned code 1
+2025-02-02 21:51:16,039 - Starte Workload memory_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 21:51:16,159 - memory_stress.bat returned code 1
+2025-02-02 21:51:16,159 - Starte Workload disk_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 21:51:16,284 - disk_stress.bat returned code 1
+2025-02-02 21:51:16,284 - Stoppe Performance-Monitoring.
+2025-02-02 21:51:16,877 - Metrics monitoring thread stopped.
+2025-02-02 21:51:16,877 - Stoppe Hyper-V-VM: Kerem
+2025-02-02 21:51:21,222 - Hyper-V-VM erfolgreich gestoppt.
+2025-02-02 21:51:21,223 - Hyper-V-Test abgeschlossen.
+2025-02-02 21:54:08,029 - Starte Hyper-V-VM: Kerem
+2025-02-02 21:54:08,932 - Hyper-V-VM erfolgreich gestartet.
+2025-02-02 21:55:08,934 - Starte Performance-Monitoring für Hyper-V.
+2025-02-02 21:55:08,939 - Starte Workload cpu_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 21:55:09,064 - cpu_stress.bat returned code 1
+2025-02-02 21:55:09,064 - Starte Workload memory_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 21:55:09,189 - memory_stress.bat returned code 1
+2025-02-02 21:55:09,189 - Starte Workload disk_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 21:55:09,309 - disk_stress.bat returned code 1
+2025-02-02 21:55:09,310 - Stoppe Performance-Monitoring.
+2025-02-02 21:55:09,950 - Metrics monitoring thread stopped.
+2025-02-02 21:55:09,951 - Stoppe Hyper-V-VM: Kerem
+2025-02-02 21:55:14,271 - Hyper-V-VM erfolgreich gestoppt.
+2025-02-02 21:55:14,271 - Hyper-V-Test abgeschlossen.
+2025-02-02 22:00:42,418 - Starte Hyper-V-VM: Kerem
+2025-02-02 22:00:43,763 - Hyper-V-VM erfolgreich gestartet.
+2025-02-02 22:01:43,764 - Starte Performance-Monitoring für Hyper-V.
+2025-02-02 22:01:43,770 - Starte Workload cpu_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 22:01:45,600 - Starte Workload memory_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 22:01:46,410 - Starte Workload disk_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 22:01:47,295 - Stoppe Performance-Monitoring.
+2025-02-02 22:01:47,823 - Metrics monitoring thread stopped.
+2025-02-02 22:01:47,824 - Stoppe Hyper-V-VM: Kerem
+2025-02-02 22:01:51,573 - Hyper-V-VM erfolgreich gestoppt.
+2025-02-02 22:01:51,573 - Hyper-V-Test abgeschlossen.
+2025-02-02 22:05:41,214 - Starte Hyper-V-VM: Kerem
+2025-02-02 22:05:42,206 - Hyper-V-VM erfolgreich gestartet.
+2025-02-02 22:06:42,207 - Starte Performance-Monitoring für Hyper-V.
+2025-02-02 22:06:42,212 - Starte Workload cpu_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 22:06:45,790 - Starte Workload memory_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 22:06:47,943 - Starte Workload disk_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 22:06:49,997 - Stoppe Performance-Monitoring.
+2025-02-02 22:06:50,305 - Metrics monitoring thread stopped.
+2025-02-02 22:06:50,305 - Stoppe Hyper-V-VM: Kerem
+2025-02-02 22:06:54,376 - Hyper-V-VM erfolgreich gestoppt.
+2025-02-02 22:06:54,376 - Hyper-V-Test abgeschlossen.
+2025-02-02 22:11:14,427 - Starte Hyper-V-VM: Kerem
+2025-02-02 22:11:15,502 - Hyper-V-VM erfolgreich gestartet.
+2025-02-02 22:12:15,503 - Starte Performance-Monitoring für Hyper-V.
+2025-02-02 22:12:15,510 - Starte Workload cpu_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 22:37:21,937 - Starte Workload memory_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 23:02:24,703 - Starte Workload disk_stress.bat in Hyper-V-VM: Kerem
+2025-02-02 23:02:30,798 - Stoppe Performance-Monitoring.
+2025-02-02 23:02:31,719 - Metrics monitoring thread stopped.
+2025-02-02 23:02:31,723 - Stoppe Hyper-V-VM: Kerem
+2025-02-02 23:03:16,576 - Hyper-V-VM erfolgreich gestoppt.
+2025-02-02 23:03:16,576 - Hyper-V-Test abgeschlossen.
